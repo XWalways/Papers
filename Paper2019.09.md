@@ -15,7 +15,25 @@ https://arxiv.org/pdf/1908.02116.pdf
 
 Facial Landmark Detection,提出一种Teacher Supervises Students的设计,一个teacher model监督两个结构不同的student models,在300-W上,用全部数据,得到了3.49的NME.只用20%数据,得到了5.03的NME,比其他semi-supervised方法要更准确
 
+## 3.Character Region Awareness for Text Detection
 
+https://arxiv.org/abs/1904.01941.pdf
+
+https://github.com/clovaai/CRAFT-pytorch
+
+自然场景文字检测SOTA,
+算法开源,代码友好
+算法基于字符检测,可扩展性强,
+算法给出了一种若监督的训练方式,
+多个trick提升速度.
+
+## 4.Consistent Scale Normalization for Object Recognition
+
+https://arxiv.org/pdf/1908.07323.pdf
+
+提出了Consistent Scale Normalizatoin (CSN) 来减轻scale variation带来的问题,
+CSN可以加在任何backbone上面,
+在Object dection, instance segmentation和keypoint detection的任务上都能带来提升.
 
 # **Segmentation/Action Recognition/Pose Estimation**
 
@@ -46,7 +64,15 @@ https://arxiv.org/pdf/1907.13426.pdf
 提出了一个expectation-maximization attention unit (EMA Unit),
 在增加较少计算量的前提下,在PASCAL VOC和COCO Stuff的semantic segmenation任务上取得了SOTA效果
 
+## 4.Action recognition with spatial-temporal discriminative filter banks
 
+https://arxiv.org/pdf/1908.07625.pdf
+
+提出使用3个branch来做最后的classification:
+Global feature branch,
+Local feature branch,
+Discriminative filter banch 使得网络更关注重要的location,
+在Kinetics-400和Something-Something-V1数据集上都达到了SOTA的准确率.
 
 # **Regularization**
 
