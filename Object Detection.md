@@ -2,7 +2,10 @@
 
 ## 2019 arXiv of Object Detection
 
-* [Multi-Cue Vehicle Detection for Semantic Video Compression In Georegistered Aerial Videos](https://github.com/Sophia-11/Awesome-CV-Paper-Review/blob/master/Object%20Detection/2019-07-09/Multi-Cue%20Vehicle%20Detection%20for%20Semantic%20Video%20Compression%20In%20Georegistered%20Aerial%20Videos.md)
+* [Multi-Cue Vehicle Detection for Semantic Video Compression In Georegistered Aerial Videos](https://arxiv.org/pdf/1907.01176.pdf)
+
+* [Consistent Scale Normalization for Object Recognition](https://arxiv.org/pdf/1908.07323.pdf)
+
 ## 2019 CVPR of Object Detection
 
 
