@@ -53,6 +53,16 @@ https://github.com/WenmuZhou/PAN.pytorch
 提出可串联的FPEM模块来提升检测性能,
 实验结果兼顾了速度和精度,并不断更新源码.
 
+## 7.RepPoints: Point Set Representation for Object Detection
+
+https://arxiv.org/pdf/1904.11490.pdf
+
+https://github.com/microsoft/RepPoints
+
+提出RepPoints，一种anchor-free的object detection方法,在COCO object detection task上达到了46.5 AP.
+
+
+
 # **Segmentation/Action Recognition/Pose Estimation**
 
 ## 1.STM: SpatioTemporal and Motion Encoding for Action Recognition
@@ -87,10 +97,14 @@ https://arxiv.org/pdf/1907.13426.pdf
 https://arxiv.org/pdf/1908.07625.pdf
 
 提出使用3个branch来做最后的classification:
+
 Global feature branch,
+
 Local feature branch,
-Discriminative filter banch 使得网络更关注重要的location,
-在Kinetics-400和Something-Something-V1数据集上都达到了SOTA的准确率.
+
+Discriminative filter banch 
+
+使得网络更关注重要的location,在Kinetics-400和Something-Something-V1数据集上都达到了SOTA的准确率.
 
 ## 5.TSM: Temporal Shift Module for Efficient Video Understanding
 
@@ -102,7 +116,8 @@ https://github.com/mit-han-lab/temporal-shift-module
 提出bi-directional和uni-directional两种TSM, 分别应对offline和online两种计算量不同的需求,
 在something-something和jester上面都达到了SOTA的水平.
 
-# **Regularization**
+
+# **Regularization and Network Structure**
 
 ## 1.Adaptive Regularization of Labels
 
@@ -120,11 +135,30 @@ motivation: Dropout在全连接网络中效果较好，但是在卷积网络中�
 提出了一种Dropout的升级版,不是随机drop某些孤立的像素点,而是drop一个m*n的block,
 inference时不增加任何计算量的前提下,imagenet ResNet-50识别正确率提高1.6%，检测分割等任务都有不同程度的提升.
 
+## 3.Differentiable Learning-to-Group Channels via Groupable Convolutional Neural Networks
 
-# **NAS**
+https://arxiv.org/pdf/1908.05867.pdf
+
+提出Dynamic Grouping Convolution (DGConv),可以同时学习parameters以及grouping的数量和方式
+可以直接替换普通的conv以及group-conv,用DGConv替换ResNeXt中的GConv可以降低计算量,并且提升accuracy.
+
+# **NAS and Others**
 ## 1.AutoML: A Survey of the State-of-the-Art
 
 https://arxiv.org/pdf/1908.00709.pdf
 
 关于Neural Architecture Search的一个survey
 
+## 2.SoftTriple Loss: Deep Metric Learning Without Triplet Sampling
+
+https://arxiv.org/abs/1909.05235
+
+度量学习.
+
+## 3.AutoGAN: Neural Architecture Search for Generative Adversarial Networks
+
+https://arxiv.org/abs/1908.03835
+
+https://github.com/TAMU-VITA/AutoGAN
+
+神经架构搜索（NAS）已经在图像分类和分割任务中显示出一定的成功,在本文中,研究人员提出了第一种利用神经架构搜索生成生成对抗网络的方法,名为AutoGAN.研究人员在论文中将搜索空间定义为生成器架构变体,并使用了一个RNN 控制器指导搜索过程,并且用参数共享和动态重设的方法加速进程.奖励则使用了Inception score,并使用了多级别的搜索策略.
