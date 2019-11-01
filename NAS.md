@@ -1,4 +1,4 @@
-# Awesome NAS [![Awesome]
+# NAS
 
 ## From D-X-Y
 
