@@ -8,6 +8,16 @@
 
 * [R3Det: Refined Single-Stage Detector with Feature Refinement for Rotating Object](https://arxiv.org/abs/1908.05612.pdf)
 
+## 2019 NIPS of Object Detection
+
+- [DetNAS: Backbone Search for Object Detection](https://arxiv.org/pdf/1903.10979.pdf)[` [pytorch]`](https://github.com/megvii-model/DetNAS)
+
+- [Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution](Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution)[` [pytorch]`](https://github.com/thangvubk/Cascade-RPN)
+
+- [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466.pdf)[` [pytorch]`](https://github.com/zhangxiaosong18/FreeAnchor)
+
+- [Efficient Neural Architecture Transformation Searchin Channel-Level for Object Detection](https://arxiv.org/pdf/1909.02293.pdf)
+
 ## 2019 ICCV of Object Detection
 
 - [ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/abs/1903.11752)
@@ -40,9 +50,13 @@
 
 - [Towards Unconstrained End-to-End Text Spotting](https://arxiv.org/abs/1908.09231)
 
+- [RepPoints: Point Set Representation for Object Detection](https://arxiv.org/pdf/1904.11490.pdf)[` [pytorch]`](https://github.com/microsoft/RepPoints)
+
+- [Gaussian YOLOv3: An Accurate and Fast Object Detector using Localization Uncertainty for Autonomous Driving](https://arxiv.org/pdf/1904.04620.pdf)[`[C]`](https://github.com/jwchoi384/Gaussian_YOLOv3)
+
+- [Dynamic Anchor Feature Selection for Single-Shot Object Detection](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV-DAFS.pdf)
 
 ## 2019 CVPR of Object Detection
-
 
 - [Feature Selective Anchor-Free Module for Single-Shot Object Detection ](https://arxiv.org/pdf/1903.00621.pdf) 
 
