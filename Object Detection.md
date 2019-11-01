@@ -12,7 +12,7 @@
 
 - [DetNAS: Backbone Search for Object Detection](https://arxiv.org/pdf/1903.10979.pdf)[` [pytorch]`](https://github.com/megvii-model/DetNAS)
 
-- [Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution](Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution)[` [pytorch]`](https://github.com/thangvubk/Cascade-RPN)
+- [Cascade RPN: Delving into High-Quality Region Proposal Network with Adaptive Convolution](https://github.com/thangvubk/Cascade-RPN)[` [pytorch]`](https://github.com/thangvubk/Cascade-RPN)
 
 - [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/abs/1909.02466.pdf)[` [pytorch]`](https://github.com/zhangxiaosong18/FreeAnchor)
 
