@@ -6,6 +6,41 @@
 
 * [Consistent Scale Normalization for Object Recognition](https://arxiv.org/pdf/1908.07323.pdf)
 
+* [R3Det: Refined Single-Stage Detector with Feature Refinement for Rotating Object](https://arxiv.org/abs/1908.05612.pdf)
+
+## 2019 ICCV of Object Detection
+
+- [ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/abs/1903.11752)
+
+- [Multi-adversarial Faster-RCNN for Unrestricted Object Detection](https://arxiv.org/abs/1907.10343)
+
+- [FCOS: Fully Convolutional One-Stage Object Detection](https://arxiv.org/abs/1904.01355)[` [pytorch]`](https://github.com/tianzhi0549/FCOS/)
+
+- [Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection](https://arxiv.org/abs/1907.10164)
+
+- [Towards Adversarially Robust Object Detection](https://arxiv.org/abs/1907.10310)
+
+- [Few-shot Object Detection via Feature Reweighting](https://arxiv.org/pdf/1812.01866.pdf)
+
+- [Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection](https://arxiv.org/abs/1907.10164)
+
+- [Learning Lightweight Lane Detection CNNs by Self Attention Distillation](https://arxiv.org/abs/1908.00821)[` [tensorflow]`](https://github.com/cardwing/Codes-for-Lane-Detection)
+
+- [SCRDet: Towards More Robust Detection for Small, Cluttered and Rotated Objects](https://arxiv.org/abs/1811.07126)[` [pytorch]`](https://github.com/DetectionTeamUCAS)
+
+- [Teacher Supervises Students How to Learn From Partially Labeled Images for Facial Landmark Detection](https://arxiv.org/abs/1908.02116)[` [pytorch]`](https://github.com/D-X-Y/landmark-detection)
+
+- [Clustered Object detection in aerial images](https://arxiv.org/pdf/1904.08008)
+
+- [Relation Distillation Networks for Video Object Detection](https://arxiv.org/abs/1908.09511)
+
+- [Scaling Object Detection by Transferring Classification Weights](https://arxiv.org/abs/1909.06804)[` [pytorch]`](https://github.com/xternalz/AE-WTN)
+
+- [GA-DAN: Geometry-Aware Domain Adaptation Network for Scene Text Detection and Recognition](https://arxiv.org/abs/1907.09653)
+
+- [Towards Unconstrained End-to-End Text Spotting](https://arxiv.org/abs/1908.09231)
+
+
 ## 2019 CVPR of Object Detection
 
 
