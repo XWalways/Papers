@@ -56,6 +56,8 @@
 
 - [Dynamic Anchor Feature Selection for Single-Shot Object Detection](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV-DAFS.pdf)
 
+- [CenterNet: Keypoint Triplets for Object Detection](https://arxiv.org/pdf/1904.08189.pdf)[` [pytorch]`](https://github.com/Duankaiwen/CenterNet)
+
 ## 2019 CVPR of Object Detection
 
 - [Feature Selective Anchor-Free Module for Single-Shot Object Detection ](https://arxiv.org/pdf/1903.00621.pdf) 
