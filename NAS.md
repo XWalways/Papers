@@ -39,6 +39,7 @@ In submission, XDDD.
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [DATA: Differentiable ArchiTecture Approximation](http://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation) | NeurIPS | | |
 | [Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation](https://arxiv.org/abs/1904.12760.pdf) | ICCV | | |
 | [Multinomial Distribution Learning for Effective Neural Architecture Search](https://arxiv.org/abs/1905.07529.pdf) | ICCV | | |
 | [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244.pdf) | ICCV | EA | - |
