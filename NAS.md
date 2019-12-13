@@ -127,6 +127,7 @@ In submission, XDDD.
 ### arXiv
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [https://github.com/xiaomi-automl/FairNAS] |
 | [PC-DARTS: Partial Channel Connections for Memory-Efficient Differentiable Architecture Search](https://arxiv.org/pdf/1907.05737.pdf) | 2019.07 | G | [Github](https://github.com/yuhuixu1993/PC-DARTS) |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
