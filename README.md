@@ -3,4 +3,4 @@
 
 My notes and some good papers
 
-##[SOTA MODEL](https://www.jiqizhixin.com/sota)
+## [SOTA MODEL](https://www.jiqizhixin.com/sota)
