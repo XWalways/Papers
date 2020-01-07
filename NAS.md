@@ -56,6 +56,9 @@ A curated list of neural architecture search and related resources. Inspired by 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [DATA: Differentiable ArchiTecture Approximation](http://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation) | NeurIPS | G | - |
+| [Random Search and Reproducibility for Neural Architecture Search]() | UAI | G | [Github](https://github.com/D-X-Y/NAS-Projects/blob/master/scripts-search/algos/RANDOM-NAS.sh) |
+| [Improved Differentiable Architecture Search for Language Modeling and Named Entity Recognition](https://www.aclweb.org/anthology/D19-1367.pdf/) | EMNLP | - |
+| [Continual and Multi-Task Architecture Search](https://www.aclweb.org/anthology/P19-1185.pdf) | ACL | RL | - |
 | [Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation](https://arxiv.org/abs/1904.12760.pdf) | ICCV | - | - |
 | [Multinomial Distribution Learning for Effective Neural Architecture Search](https://arxiv.org/abs/1905.07529.pdf) | ICCV | - | - |
 | [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244.pdf) | ICCV | EA | - |
