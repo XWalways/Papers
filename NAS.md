@@ -1,4 +1,4 @@
-# NAS
+# NAS Papers&Projects
 
 ## From [D-X-Y](https://github.com/D-X-Y/Awesome-NAS)
 
@@ -33,18 +33,33 @@ A curated list of neural architecture search and related resources. Inspired by 
 
 ### 2020
 
-In submission, XDDD.
+|  Title  |   Venue  |   Type   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [NAS-BENCH-102: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | -  | [Github](https://github.com/D-X-Y/NAS-Projects/blob/master/NAS-Bench-102.md) |
+| [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
+| [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR | - | - |
+| [Fast Neural Network Adaptation via Parameter Remapping and Architecture Search](https://openreview.net/forum?id=rklTmyBKPH) | ICLR | _ | [Github](https://github.com/JaminFong/FNA) |
+| [Once for All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/abs/1908.09791) | ICLR | G | - |
+| [Efficient Transformer for Mobile Applications](https://openreview.net/pdf?id=ByeMPlHKPH) | ICLR | - | - |
+| [PC-DARTS: Partial Channel Connections for Memory-Efficient Architecture Search](https://arxiv.org/abs/1907.05737.pdf) | ICLR | G | [Github](https://github.com/yuhuixu1993/PC-DARTS) |
+| [Adversarial AutoAugment](https://openreview.net/pdf?id=ByxdUySKvS) | ICLR | - | - |
+| [NAS evaluation is frustratingly hard](https://openreview.net/pdf?id=HygrdpVKvr) | ICLR | - | - |
+| [FasterSeg: Searching for Faster Real-time Semantic Segmentation](https://openreview.net/pdf?id=BJgqQ6NYvB) | ICLR | G | [Github](https://github.com/TAMU-VITA/FasterSeg) |
+| [Computation Reallocation for Object Detection](https://openreview.net/forum?id=SkxLFaNKwB) | ICLR | - | - | 
+| [Towards Fast Adaptation of Neural Architectures with Meta Learning](https://openreview.net/forum?id=r1eowANFvr) | ICLR | - | - |
+| [AssembleNet: Searching for Multi-Stream Neural Connectivity in Video Architectures](https://arxiv.org/abs/1905.13209.pdf) | ICLR | EA | - |
+| [How to Own the NAS in Your Spare Time](https://openreview.net/pdf?id=S1erpeBFPB) | ICLR | - | - |
 
 ### 2019
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [DATA: Differentiable ArchiTecture Approximation](http://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation) | NeurIPS | | |
+| [DATA: Differentiable ArchiTecture Approximation](http://papers.nips.cc/paper/8374-data-differentiable-architecture-approximation) | NeurIPS | G | |
 | [Progressive Differentiable Architecture Search: Bridging the Depth Gap Between Search and Evaluation](https://arxiv.org/abs/1904.12760.pdf) | ICCV | | |
-| [Multinomial Distribution Learning for Effective Neural Architecture Search](https://arxiv.org/abs/1905.07529.pdf) | ICCV | | |
+| [Multinomial Distribution Learning for Effective Neural Architecture Search](https://arxiv.org/abs/1905.07529.pdf) | ICCV | - | - |
 | [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244.pdf) | ICCV | EA | - |
-| [Fast and Practical Neural Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cui_Fast_and_Practical_Neural_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | | |
-| [Teacher Guided Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Bashivan_Teacher_Guided_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | | - |
+| [Fast and Practical Neural Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Cui_Fast_and_Practical_Neural_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | - | |
+| [Teacher Guided Architecture Search](http://openaccess.thecvf.com/content_ICCV_2019/papers/Bashivan_Teacher_Guided_Architecture_Search_ICCV_2019_paper.pdf) | ICCV | - | - |
 | [AutoDispNet: Improving Disparity Estimation With AutoML](http://openaccess.thecvf.com/content_ICCV_2019/papers/Saikia_AutoDispNet_Improving_Disparity_Estimation_With_AutoML_ICCV_2019_paper.pdf) | ICCV | G | - |
 | [Resource Constrained Neural Network Architecture Search: Will a Submodularity Assumption Help?](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xiong_Resource_Constrained_Neural_Network_Architecture_Search_Will_a_Submodularity_Assumption_ICCV_2019_paper.pdf) | ICCV | EA | - |
 | [Towards modular and programmable architecture search](https://arxiv.org/abs/1909.13404) | NeurIPS | [Other](https://github.com/D-X-Y/Awesome-NAS/issues/10) | [Github](https://github.com/negrinho/deep_architect) |
@@ -55,7 +70,7 @@ In submission, XDDD.
 | [Efficient Forward Architecture Search ](https://arxiv.org/abs/1905.13360) | NeurIPS | G | [Github](https://github.com/microsoft/petridishnn) |
 | [Efficient Neural ArchitectureTransformation Search in Channel-Level for Object Detection](https://arxiv.org/abs/1909.02293.pdf) | NeurIPS | G | - |
 | [XNAS: Neural Architecture Search with Expert Advice](https://arxiv.org/abs/1906.08031.pdf) | NeurIPS | G | - |
-| [One-Shot Neural Architecture Search via Self-Evaluated Template Network](https://arxiv.org/abs/1910.05733) | ICCV | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
+| [One-Shot Neural Architecture Search via Self-Evaluated Template Network](https://arxiv.org/abs/1910.05733) | ICCV | G/PD | [Github](https://github.com/D-X-Y/NAS-Projects) |
 | [Evolving Space-Time Neural Architectures for Videos](https://arxiv.org/abs/1811.10636) | ICCV | EA | [GitHub](https://sites.google.com/view/evanet-video) |
 | [AutoGAN: Neural Architecture Search for Generative Adversarial Networks](https://arxiv.org/pdf/1908.03835.pdf) | ICCV | RL | [Github](https://github.com/TAMU-VITA/AutoGAN) |
 | [Neural architecture search: A survey](http://www.jmlr.org/papers/volume20/18-598/18-598.pdf) | JMLR | Survey | - |
@@ -66,10 +81,10 @@ In submission, XDDD.
 | [Efficient Multi-Objective Neural Architecture Search via Lamarckian Evolution](https://arxiv.org/abs/1804.09081) | ICLR | EA | - |
 | [SNAS: stochastic neural architecture search](https://openreview.net/pdf?id=rylqooRqK7) | ICLR | G | - |
 | [Searching for A Robust Neural Architecture in Four GPU Hours](http://xuanyidong.com/publication/gradient-based-diff-sampler/) | CVPR | G | [Github](https://github.com/D-X-Y/NAS-Projects) |
-| [ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_ChamNet_Towards_Efficient_Network_Design_Through_Platform-Aware_Model_Adaptation_CVPR_2019_paper.pdf) | CVPR | - | - |
+| [ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](http://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_ChamNet_Towards_Efficient_Network_Design_Through_Platform-Aware_Model_Adaptation_CVPR_2019_paper.pdf) | CVPR | EA/PD | - |
 | [Partial Order Pruning: for Best Speed/Accuracy Trade-off in Neural Architecture Search](https://arxiv.org/pdf/1903.03777.pdf) | CVPR | EA | [Github](https://github.com/lixincn2015/Partial-Order-Pruning) |
 | [FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search](https://arxiv.org/abs/1812.03443) | CVPR | G | - | 
-| [RENAS: Reinforced Evolutionary Neural Architecture Search	](https://arxiv.org/abs/1808.00193) | CVPR | G | - |
+| [RENAS: Reinforced Evolutionary Neural Architecture Search	](https://arxiv.org/abs/1808.00193) | CVPR | EA | - |
 | [Auto-DeepLab: Hierarchical Neural Architecture Search for Semantic Image Segmentation](https://arxiv.org/pdf/1901.02985.pdf) | CVPR |  G | [GitHub](https://github.com/tensorflow/models/tree/master/research/deeplab) |
 | [MnasNet: Platform-Aware Neural Architecture Search for Mobile](https://arxiv.org/abs/1807.11626) | CVPR | RL | [Github](https://github.com/AnjieZheng/MnasNet-PyTorch) |
 | [MFAS: Multimodal Fusion Architecture Search](https://arxiv.org/pdf/1903.06496.pdf) | CVPR | EA | - |
@@ -129,7 +144,6 @@ In submission, XDDD.
 |:--------|:--------:|:--------:|:--------:|
 | [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126) | 2019.11 | G | [Github](https://github.com/xiaomi-automl/FairDARTS) |
 | [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [Github](https://github.com/xiaomi-automl/FairNAS) |
-| [PC-DARTS: Partial Channel Connections for Memory-Efficient Differentiable Architecture Search](https://arxiv.org/pdf/1907.05737.pdf) | 2019.07 | G | [Github](https://github.com/yuhuixu1993/PC-DARTS) |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
 | [Random Search and Reproducibility for Neural Architecture Search](https://arxiv.org/abs/1902.07638.pdf) | 2019.01 | G | - |
