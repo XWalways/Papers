@@ -154,6 +154,5 @@ A curated list of neural architecture search and related resources. Inspired by 
 | [SCARLET-NAS: Bridging the gap Between Stability and Scalability in Neural Architecture Search](https://arxiv.org/abs/1908.06022) | 2019.8 | EA | [Github](https://github.com/xiaomi-automl/SCARLET-NAS) |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
-| [Random Search and Reproducibility for Neural Architecture Search](https://arxiv.org/abs/1902.07638.pdf) | 2019.01 | G | - |
 | [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
 | [Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search](https://arxiv.org/pdf/1901.07261.pdf) | 2019.01 | G | [Github](https://github.com/falsr/FALSR) |
