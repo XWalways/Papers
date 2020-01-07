@@ -144,8 +144,8 @@ A curated list of neural architecture search and related resources. Inspired by 
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
-| [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | - |
-| [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search] | 2019.11 | G | - |
+| [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | [Code](https://www.dropbox.com/sh/j4rfzi6586iw3me/AAB1bnUMid-5DLzaEGxmQAkCa?dl=0) |
+| [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search](https://128.84.21.199/abs/1909.11926v3) | 2019.11 | G | [Github](https://github.com/susan0199/stacnas) |
 | [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126) | 2019.11 | G | [Github](https://github.com/xiaomi-automl/FairDARTS) |
 | [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [Github](https://github.com/xiaomi-automl/FairNAS) |
 | [SCARLET-NAS: Bridging the gap Between Stability and Scalability in Neural Architecture Search](https://arxiv.org/abs/1908.06022) | 2019.8 | EA | [Github](https://github.com/xiaomi-automl/SCARLET-NAS) |
