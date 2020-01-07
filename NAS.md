@@ -35,6 +35,7 @@ A curated list of neural architecture search and related resources. Inspired by 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Understanding and Robustifying Differentiable Architecture Search](https://openreview.net/forum?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
 | [NAS-BENCH-102: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | -  | [Github](https://github.com/D-X-Y/NAS-Projects/blob/master/NAS-Bench-102.md) |
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
 | [Evaluating The Search Phase of Neural Architecture Search](https://openreview.net/forum?id=H1loF2NFwr) | ICLR | - | - |
@@ -142,8 +143,12 @@ A curated list of neural architecture search and related resources. Inspired by 
 ### arXiv
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
+| [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | - |
+| [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search] | 2019.11 | G | - |
 | [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126) | 2019.11 | G | [Github](https://github.com/xiaomi-automl/FairDARTS) |
 | [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [Github](https://github.com/xiaomi-automl/FairNAS) |
+| [SCARLET-NAS: Bridging the gap Between Stability and Scalability in Neural Architecture Search](https://arxiv.org/abs/1908.06022) | 2019.8 | EA | [Github](https://github.com/xiaomi-automl/SCARLET-NAS) |
 | [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
 | [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
 | [Random Search and Reproducibility for Neural Architecture Search](https://arxiv.org/abs/1902.07638.pdf) | 2019.01 | G | - |
