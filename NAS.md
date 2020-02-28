@@ -35,7 +35,7 @@ A curated list of neural architecture search and related resources. Inspired by 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) | ICLR |  | [Github](https://github.com/meijieru/AtomNAS) |
+| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) | ICLR | - | [Github](https://github.com/meijieru/AtomNAS) |
 | [Understanding and Robustifying Differentiable Architecture Search](https://openreview.net/forum?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
 | [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | -  | [Github](https://github.com/D-X-Y/NAS-Projects/blob/master/NAS-Bench-102.md) |
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
@@ -165,7 +165,7 @@ A curated list of neural architecture search and related resources. Inspired by 
 | [Efficient Neural Architecture Search: A Broad Version](https://arxiv.org/abs/2001.06679) | 2020.1 | RL | - |
 | [Latency-Aware Differentiable Neural Architecture Search](https://arxiv.org/abs/2001.06392) | 2020.1 | G | - |
 | [EcoNAS: Finding Proxies for Economical Neural Architecture Search](https://arxiv.org/abs/2001.01233) | 2020.1| EA | - | 
-| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | 2020.2 | G | [Github](https://github.com/ xiangning-chen/SmoothDARTS) |
+| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | 2020.2 | G | [Github](https://github.com/xiangning-chen/SmoothDARTS) |
 | [Scalable NAS with Factorizable Architectural Parameters](https://arxiv.org/abs/1912.13256) | 2019.12 | G | - |
 | [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
 | [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | [Code](https://www.dropbox.com/sh/j4rfzi6586iw3me/AAB1bnUMid-5DLzaEGxmQAkCa?dl=0) |
