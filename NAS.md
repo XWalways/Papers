@@ -35,6 +35,7 @@ A curated list of neural architecture search and related resources. Inspired by 
 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [AtomNAS: Fine-Grained End-to-End Neural Architecture Search](https://openreview.net/forum?id=BylQSxHFwr) | ICLR |  | [Github](https://github.com/meijieru/AtomNAS) |
 | [Understanding and Robustifying Differentiable Architecture Search](https://openreview.net/forum?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
 | [NAS-BENCH-201: Extending the Scope of Reproducible Neural Architecture Search](https://openreview.net/forum?id=HJxyZkBKDr) | ICLR | -  | [Github](https://github.com/D-X-Y/NAS-Projects/blob/master/NAS-Bench-102.md) |
 | [Understanding Architectures Learnt by Cell-based Neural Architecture Search](https://openreview.net/pdf?id=H1gDNyrKDS) | ICLR | G | [Github](https://github.com/automl/RobustDARTS) |
@@ -146,6 +147,26 @@ A curated list of neural architecture search and related resources. Inspired by 
 ### arXiv
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) | 2020.2 |G | - | 
+| [Binarized Neural Architecture Search](https://arxiv.org/abs/1911.10862)| 2019.11 | G | - |
+| [Neural Architecture Search on Acoustic Scene Classificatio](http://arxiv.org/abs/1912.12825) | 2019.12 | EA | - |
+| [Performance-Oriented Neural Architecture Search](https://arxiv.org/abs/2001.02976)| 2020.1 | - | - |
+| [RC-DARTS: Resource Constrained Differentiable Architecture Search](https://arxiv.org/abs/1912.12814)| 2019.12 | G | - |
+| [Best of Both Worlds: AutoML Codesign of a CNN and its Hardware Accelerator](https://arxiv.org/abs/2002.05022)| 2020.2 | RL | - |
+| [Neural Architecture Search for Deep Image Prior](https://arxiv.org/abs/2001.04776) | 2020.1 | EA | - |
+| [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://arxiv.org/abs/1911.09929) | 2019.11 | EA | - |
+| [Search to Distill: Pearls are Everywhere but not the Eyes](https://arxiv.org/abs/1911.09074)| 2019.11 | RL | - |
+| [SGAS: Sequential Greedy Architecture Search](https://arxiv.org/abs/1912.00195v1) | 2019.12 | G | - |
+| [EDAS: Efficient and Differentiable Architecture Search](https://arxiv.org/abs/1912.01237)| 2019.12 | G | - |
+| [Multi-objective Neural Architecture Search via Non-stationary Policy Gradient](https://arxiv.org/abs/2001.08437) | 2020.1 | RL | - |
+| [Channel Pruning via Automatic Structure Search](https://arxiv.org/abs/2001.08565) | 2020.1 | - | - |
+| [DEEPER INSIGHTS INTO WEIGHT SHARING IN NEU- RAL ARCHITECTURE SEARCH](https://arxiv.org/abs/2001.01431)| 2020.1 | - | - |
+| [MixPath: A Unified Approach for One-shot Neural Architecture Search](https://arxiv.org/abs/2001.05887) | 2020.1 | EA | [Github](https://github.com/xiaomi-automl/MixPath.git) | 
+| [Efficient Neural Architecture Search: A Broad Version](https://arxiv.org/abs/2001.06679) | 2020.1 | RL | - |
+| [Latency-Aware Differentiable Neural Architecture Search](https://arxiv.org/abs/2001.06392) | 2020.1 | G | - |
+| [EcoNAS: Finding Proxies for Economical Neural Architecture Search](https://arxiv.org/abs/2001.01233) | 2020.1| EA | - | 
+| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | 2020.2 | G | [Github](https://github.com/ xiangning-chen/SmoothDARTS) |
+| [Scalable NAS with Factorizable Architectural Parameters](https://arxiv.org/abs/1912.13256) | 2019.12 | G | - |
 | [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
 | [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | [Code](https://www.dropbox.com/sh/j4rfzi6586iw3me/AAB1bnUMid-5DLzaEGxmQAkCa?dl=0) |
 | [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search](https://128.84.21.199/abs/1909.11926v3) | 2019.11 | G | [Github](https://github.com/susan0199/stacnas) |
