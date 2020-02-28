@@ -147,6 +147,7 @@ A curated list of neural architecture search and related resources. Inspired by 
 ### arXiv
 |  Title  |   Date  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | 2020.1 | - | - |
 | [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) | 2020.2 |G | - | 
 | [Binarized Neural Architecture Search](https://arxiv.org/abs/1911.10862)| 2019.11 | G | - |
 | [Neural Architecture Search on Acoustic Scene Classificatio](http://arxiv.org/abs/1912.12825) | 2019.12 | EA | - |
