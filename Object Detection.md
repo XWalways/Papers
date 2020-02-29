@@ -26,7 +26,7 @@
 
 ## 2019 NIPS of Object Detection
 
--[One-Shot Object Detection with Co-Attention and Co-Excitation](http://papers.nips.cc/paper/8540-one-shot-object-detection-with-co-attention-and-co-excitation.pdf)
+- [One-Shot Object Detection with Co-Attention and Co-Excitation](http://papers.nips.cc/paper/8540-one-shot-object-detection-with-co-attention-and-co-excitation.pdf)
 
 - [Memory-oriented Decoder for Light Field Salient Object Detection](http://papers.nips.cc/paper/8376-memory-oriented-decoder-for-light-field-salient-object-detection.pdf)
 
