@@ -31,6 +31,42 @@ A curated list of neural architecture search and related resources. Inspired by 
 |:------------|:--------------:|:----------------------:|:-----------------------:|:----------------------:|:----------:|
 | Explanation | gradient-based | reinforcement learning | evaluationary algorithm | performance prediction | other types |
 
+### arXiv
+|  Title  |   Date  |   Type   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | 2020.1 | - | - |
+| [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) | 2020.2 |G | - | 
+| [Binarized Neural Architecture Search](https://arxiv.org/abs/1911.10862)| 2019.11 | G | - |
+| [Neural Architecture Search on Acoustic Scene Classificatio](http://arxiv.org/abs/1912.12825) | 2019.12 | EA | - |
+| [Performance-Oriented Neural Architecture Search](https://arxiv.org/abs/2001.02976)| 2020.1 | - | - |
+| [RC-DARTS: Resource Constrained Differentiable Architecture Search](https://arxiv.org/abs/1912.12814)| 2019.12 | G | - |
+| [Best of Both Worlds: AutoML Codesign of a CNN and its Hardware Accelerator](https://arxiv.org/abs/2002.05022)| 2020.2 | RL | - |
+| [Neural Architecture Search for Deep Image Prior](https://arxiv.org/abs/2001.04776) | 2020.1 | EA | - |
+| [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://arxiv.org/abs/1911.09929) | 2019.11 | EA | - |
+| [Search to Distill: Pearls are Everywhere but not the Eyes](https://arxiv.org/abs/1911.09074)| 2019.11 | RL | - |
+| [SGAS: Sequential Greedy Architecture Search](https://arxiv.org/abs/1912.00195v1) | 2019.12 | G | - |
+| [EDAS: Efficient and Differentiable Architecture Search](https://arxiv.org/abs/1912.01237)| 2019.12 | G | - |
+| [Multi-objective Neural Architecture Search via Non-stationary Policy Gradient](https://arxiv.org/abs/2001.08437) | 2020.1 | RL | - |
+| [Channel Pruning via Automatic Structure Search](https://arxiv.org/abs/2001.08565) | 2020.1 | - | - |
+| [DEEPER INSIGHTS INTO WEIGHT SHARING IN NEU- RAL ARCHITECTURE SEARCH](https://arxiv.org/abs/2001.01431)| 2020.1 | - | - |
+| [MixPath: A Unified Approach for One-shot Neural Architecture Search](https://arxiv.org/abs/2001.05887) | 2020.1 | EA | [Github](https://github.com/xiaomi-automl/MixPath.git) | 
+| [Efficient Neural Architecture Search: A Broad Version](https://arxiv.org/abs/2001.06679) | 2020.1 | RL | - |
+| [Latency-Aware Differentiable Neural Architecture Search](https://arxiv.org/abs/2001.06392) | 2020.1 | G | - |
+| [EcoNAS: Finding Proxies for Economical Neural Architecture Search](https://arxiv.org/abs/2001.01233) | 2020.1| EA | - | 
+| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | 2020.2 | G | [Github](https://github.com/xiangning-chen/SmoothDARTS) |
+| [Scalable NAS with Factorizable Architectural Parameters](https://arxiv.org/abs/1912.13256) | 2019.12 | G | - |
+| [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
+| [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | [Code](https://www.dropbox.com/sh/j4rfzi6586iw3me/AAB1bnUMid-5DLzaEGxmQAkCa?dl=0) |
+| [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search](https://128.84.21.199/abs/1909.11926v3) | 2019.11 | G | [Github](https://github.com/susan0199/stacnas) |
+| [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126) | 2019.11 | G | [Github](https://github.com/xiaomi-automl/FairDARTS) |
+| [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [Github](https://github.com/xiaomi-automl/FairNAS) |
+| [SCARLET-NAS: Bridging the gap Between Stability and Scalability in Neural Architecture Search](https://arxiv.org/abs/1908.06022) | 2019.8 | EA | [Github](https://github.com/xiaomi-automl/SCARLET-NAS) |
+| [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
+| [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
+| [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
+| [Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search](https://arxiv.org/pdf/1901.07261.pdf) | 2019.01 | G | [Github](https://github.com/falsr/FALSR) |
+
+
 ### 2020
 
 |  Title  |   Venue  |   Type   |   Code   |
@@ -140,41 +176,3 @@ A curated list of neural architecture search and related resources. Inspired by 
 |  Title  |   Venue  |   Type   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [Speeding up Automatic Hyperparameter Optimization of Deep Neural Networksby Extrapolation of Learning Curves](http://ml.informatik.uni-freiburg.de/papers/15-IJCAI-Extrapolation_of_Learning_Curves.pdf) | IJCAI | PD | [Github](https://github.com/automl/pylearningcurvepredictor) |
-
-
-
-
-### arXiv
-|  Title  |   Date  |   Type   |   Code   |
-|:--------|:--------:|:--------:|:--------:|
-| [NAS-Bench-1Shot1: Benchmarking and Dissecting One-shot Neural Architecture Search](https://arxiv.org/abs/2001.10422) | 2020.1 | - | - |
-| [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) | 2020.2 |G | - | 
-| [Binarized Neural Architecture Search](https://arxiv.org/abs/1911.10862)| 2019.11 | G | - |
-| [Neural Architecture Search on Acoustic Scene Classificatio](http://arxiv.org/abs/1912.12825) | 2019.12 | EA | - |
-| [Performance-Oriented Neural Architecture Search](https://arxiv.org/abs/2001.02976)| 2020.1 | - | - |
-| [RC-DARTS: Resource Constrained Differentiable Architecture Search](https://arxiv.org/abs/1912.12814)| 2019.12 | G | - |
-| [Best of Both Worlds: AutoML Codesign of a CNN and its Hardware Accelerator](https://arxiv.org/abs/2002.05022)| 2020.2 | RL | - |
-| [Neural Architecture Search for Deep Image Prior](https://arxiv.org/abs/2001.04776) | 2020.1 | EA | - |
-| [SM-NAS: Structural-to-Modular Neural Architecture Search for Object Detection](https://arxiv.org/abs/1911.09929) | 2019.11 | EA | - |
-| [Search to Distill: Pearls are Everywhere but not the Eyes](https://arxiv.org/abs/1911.09074)| 2019.11 | RL | - |
-| [SGAS: Sequential Greedy Architecture Search](https://arxiv.org/abs/1912.00195v1) | 2019.12 | G | - |
-| [EDAS: Efficient and Differentiable Architecture Search](https://arxiv.org/abs/1912.01237)| 2019.12 | G | - |
-| [Multi-objective Neural Architecture Search via Non-stationary Policy Gradient](https://arxiv.org/abs/2001.08437) | 2020.1 | RL | - |
-| [Channel Pruning via Automatic Structure Search](https://arxiv.org/abs/2001.08565) | 2020.1 | - | - |
-| [DEEPER INSIGHTS INTO WEIGHT SHARING IN NEU- RAL ARCHITECTURE SEARCH](https://arxiv.org/abs/2001.01431)| 2020.1 | - | - |
-| [MixPath: A Unified Approach for One-shot Neural Architecture Search](https://arxiv.org/abs/2001.05887) | 2020.1 | EA | [Github](https://github.com/xiaomi-automl/MixPath.git) | 
-| [Efficient Neural Architecture Search: A Broad Version](https://arxiv.org/abs/2001.06679) | 2020.1 | RL | - |
-| [Latency-Aware Differentiable Neural Architecture Search](https://arxiv.org/abs/2001.06392) | 2020.1 | G | - |
-| [EcoNAS: Finding Proxies for Economical Neural Architecture Search](https://arxiv.org/abs/2001.01233) | 2020.1| EA | - | 
-| [Stabilizing Differentiable Architecture Search via Perturbation-based Regularization](https://arxiv.org/abs/2002.05283) | 2020.2 | G | [Github](https://github.com/xiangning-chen/SmoothDARTS) |
-| [Scalable NAS with Factorizable Architectural Parameters](https://arxiv.org/abs/1912.13256) | 2019.12 | G | - |
-| [DARTS+: Improved Differentiable Architecture Search with Early Stopping](https://arxiv.org/abs/1909.06035v1) | 2019.9 | G | - |
-| [Stabilizing Darts With Amended Gradient Estimation On Architectural Parameters](https://arxiv.org/abs/1910.11831) | 2019.10 | G | [Code](https://www.dropbox.com/sh/j4rfzi6586iw3me/AAB1bnUMid-5DLzaEGxmQAkCa?dl=0) |
-| [StacNAS: Towards stable and consistent optimization for differentiable Neural Architecture Search](https://128.84.21.199/abs/1909.11926v3) | 2019.11 | G | [Github](https://github.com/susan0199/stacnas) |
-| [Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search](https://arxiv.org/abs/1911.12126) | 2019.11 | G | [Github](https://github.com/xiaomi-automl/FairDARTS) |
-| [FairNAS: Rethinking Evaluation Fairness of Weight Sharing Neural Architecture Search](https://arxiv.org/abs/1907.01845) | 2019.11 | EA | [Github](https://github.com/xiaomi-automl/FairNAS) |
-| [SCARLET-NAS: Bridging the gap Between Stability and Scalability in Neural Architecture Search](https://arxiv.org/abs/1908.06022) | 2019.8 | EA | [Github](https://github.com/xiaomi-automl/SCARLET-NAS) |
-| [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846) | 2017.11 | EA | - |
-| [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/pdf/1810.03522.pdf) | 2018.10 | EA | - |
-| [Training Frankenstein’s Creature to Stack: HyperTree Architecture Search](https://arxiv.org/pdf/1810.11714.pdf) | 2018.10 | G | - |
-| [Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search](https://arxiv.org/pdf/1901.07261.pdf) | 2019.01 | G | [Github](https://github.com/falsr/FALSR) |
