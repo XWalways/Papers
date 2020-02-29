@@ -56,7 +56,45 @@
 
 - [Few-shot Object Detection via Feature Reweighting](https://arxiv.org/pdf/1812.01866.pdf)
 
-- [Cap2Det: Learning to Amplify Weak Caption Supervision for Object Detection](https://arxiv.org/abs/1907.10164)
+- [Meta-Learning to Detect Rare Objects](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.pdf)
+
+- [C-MIDN: Coupled Multiple Instance Detection Network With Segmentation Guidance for Weakly Supervised Object Detection](https://github.com/hoya012/deep_learning_object_detection/blob/master)
+
+- [Detecting 11K Classes: Large Scale Object Detection Without Fine-Grained Bounding Boxes](https://arxiv.org/pdf/1908.05217.pdf)
+
+- [Leveraging Long-Range Temporal Relationships Between Proposals for Video Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shvets_Leveraging_Long-Range_Temporal_Relationships_Between_Proposals_for_Video_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Weakly Supervised Object Detection With Segmentation Collaboration](https://arxiv.org/pdf/1904.00551.pdf)
+
+- [Better to Follow, Follow to Be Better: Towards Precise Supervision of Feature Super-Resolution for Small Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Noh_Better_to_Follow_Follow_to_Be_Better_Towards_Precise_Supervision_ICCV_2019_paper.pdf)
+
+- [POD: Practical Object Detection With Scale-Sensitive Network](https://arxiv.org/pdf/1909.02225.pdf)
+
+- [Enriched Feature Guided Refinement Network for Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Nie_Enriched_Feature_Guided_Refinement_Network_for_Object_Detection_ICCV_2019_paper.pdf)
+
+- [NOTE-RCNN: NOise Tolerant Ensemble RCNN for Semi-Supervised Object Detection](https://arxiv.org/pdf/1812.00124.pdf)
+
+- [Sequence Level Semantics Aggregation for Video Object Detection](https://arxiv.org/pdf/1907.06390.pdf)
+
+- [Optimizing the F-Measure for Threshold-Free Salient Object Detection](https://arxiv.org/pdf/1805.07567.pdf)
+
+- [EGNet: Edge Guidance Network for Salient Object Detection](https://arxiv.org/pdf/1908.08297.pdf)
+
+- [Objects365: A Large-Scale, High-Quality Dataset for Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shao_Objects365_A_Large-Scale_High-Quality_Dataset_for_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Few-Shot Object Detection via Feature Reweighting](https://arxiv.org/pdf/1812.01866.pdf)
+
+- [Towards Precise End-to-End Weakly Supervised Object Detection Network](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Towards_Precise_End-to-End_Weakly_Supervised_Object_Detection_Network_ICCV_2019_paper.pdf)
+
+- [WSOD2: Learning Bottom-Up and Top-Down Objectness Distillation for Weakly-Supervised Object Detection](https://arxiv.org/pdf/1909.04972.pdf)
+
+- [Learning to Rank Proposals for Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tan_Learning_to_Rank_Proposals_for_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Semi-Supervised Video Salient Object Detection Using Pseudo-Labels](https://arxiv.org/pdf/1908.04051.pdf)
+
+- [Motion Guided Attention for Video Salient Object Detection](https://arxiv.org/pdf/1909.07061.pdf)
+
+- [Stacked Cross Refinement Network for Edge-Aware Salient Object Detection](https://github.com/hoya012/deep_learning_object_detection/blob/master)[`code`](https://github.com/wuzhe71/SCAN)
 
 - [Learning Lightweight Lane Detection CNNs by Self Attention Distillation](https://arxiv.org/abs/1908.00821)[` [tensorflow]`](https://github.com/cardwing/Codes-for-Lane-Detection)
 
@@ -81,6 +119,54 @@
 - [Dynamic Anchor Feature Selection for Single-Shot Object Detection](http://www4.comp.polyu.edu.hk/~cslzhang/paper/ICCV-DAFS.pdf)
 
 - [CenterNet: Keypoint Triplets for Object Detection](https://arxiv.org/pdf/1904.08189.pdf)[` [pytorch]`](https://github.com/Duankaiwen/CenterNet)
+
+- [Towards High-Resolution Salient Object Detection](https://arxiv.org/pdf/1908.07274.pdf)
+
+- [Fast Object Detection in Compressed Video](https://arxiv.org/pdf/1811.11057.pdf)
+
+- [Relation Distillation Networks for Video Object Detection](https://arxiv.org/pdf/1908.09511.pdf)
+
+- [Object Guided External Memory Network for Video Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Deng_Object_Guided_External_Memory_Network_for_Video_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Multi-Adversarial Faster-RCNN for Unrestricted Object Detection](https://arxiv.org/pdf/1907.10343.pdf)
+
+- [Auto-FPN: Automatic Network Architecture Adaptation for Object Detection Beyond Classification](http://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Auto-FPN_Automatic_Network_Architecture_Adaptation_for_Object_Detection_Beyond_Classification_ICCV_2019_paper.pdf)
+
+- [Self-Training and Adversarial Background Regularization for Unsupervised Domain Adaptive One-Stage Object Detection](https://arxiv.org/pdf/1909.00597.pdf)
+
+- [Transductive Learning for Zero-Shot Object Detection](https://salman-h-khan.github.io/papers/ICCV19-2.pdf)
+
+- [Generative Modeling for Small-Data Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Generative_Modeling_for_Small-Data_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Scale-Aware Trident Networks for Object Detection](https://arxiv.org/pdf/1901.01892.pdf)
+
+- [Towards Interpretable Object Detection by Unfolding Latent Structures](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wu_Towards_Interpretable_Object_Detection_by_Unfolding_Latent_Structures_ICCV_2019_paper.pdf)
+
+- [Minimum Delay Object Detection From Video](https://arxiv.org/pdf/1908.11092.pdf)
+
+- [Progressive Sparse Local Attention for Video Object Detection](https://arxiv.org/pdf/1903.09126.pdf)
+
+- [Selectivity or Invariance: Boundary-Aware Salient Object Detection](https://arxiv.org/pdf/1812.10066.pdf)
+
+- [Structured Modeling of Joint Deep Feature and Prediction Refinement for Salient Object Detection](https://arxiv.org/pdf/1909.04366.pdf)
+
+- [Learning Rich Features at High-Speed for Single-Shot Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Learning_Rich_Features_at_High-Speed_for_Single-Shot_Object_Detection_ICCV_2019_paper.pdf)
+
+- [mploying Deep Part-Object Relationships for Salient Object Detection](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Employing_Deep_Part-Object_Relationships_for_Salient_Object_Detection_ICCV_2019_paper.pdf)
+
+- [Delving Into Robust Object Detection From Unmanned Aerial Vehicles: A Deep Nuisance Disentanglement Approach](https://arxiv.org/pdf/1908.03856.pdf)
+
+- [A Delay Metric for Video Object Detection: What Average Precision Fails to Tell](https://arxiv.org/pdf/1908.06368.pdf)
+
+- [A Robust Learning Approach to Domain Adaptive Object Detection](https://arxiv.org/pdf/1904.02361.pdf)
+
+- [Multi-adversarial Faster-RCNN for Unrestricted Object Detection](https://arxiv.org/pdf/1907.10343v1.pdf)
+
+- [Cascade RetinaNet: Maintaining Consistency for Single-Stage Object Detection(BMVC 19)](https://arxiv.org/pdf/1907.06881v1.pdf)
+
+- [Soft Sampling for Robust Object Detection(BMVC 19)](https://arxiv.org/pdf/1806.06986v2.pdf)
+
+- [Towards Adversarially Robust Object Detection](https://arxiv.org/pdf/1907.10310v1.pdf)
 
 ## 2019 CVPR of Object Detection
 
