@@ -166,8 +166,6 @@
 
 - [Soft Sampling for Robust Object Detection(BMVC 19)](https://arxiv.org/pdf/1806.06986v2.pdf)
 
-- [Towards Adversarially Robust Object Detection](https://arxiv.org/pdf/1907.10310v1.pdf)
-
 ## 2019 CVPR of Object Detection
 
 - [Feature Selective Anchor-Free Module for Single-Shot Object Detection ](https://arxiv.org/pdf/1903.00621.pdf) 
