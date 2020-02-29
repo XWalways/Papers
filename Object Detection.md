@@ -1,6 +1,10 @@
 # [**Object Detection**](https://github.com/hoya012/deep_learning_object_detection)
 
-## 2019 arXiv of Object Detection
+## arXiv of Object Detection
+
+* [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
+
+* [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/pdf/1911.09070v1.pdf)
 
 * [Multi-Cue Vehicle Detection for Semantic Video Compression In Georegistered Aerial Videos](https://arxiv.org/pdf/1907.01176.pdf)
 
@@ -8,7 +12,27 @@
 
 * [R3Det: Refined Single-Stage Detector with Feature Refinement for Rotating Object](https://arxiv.org/abs/1908.05612.pdf)
 
+## 2020 ICLR of Object Detection
+
+- [Computation Reallocation for Object Detection](https://arxiv.org/pdf/1911.08287v1.pdf)
+## 2020 AAAI of Object Detection
+
+- [Spiking-YOLO: Spiking Neural Network for Real-time Object Detection](https://arxiv.org/pdf/1903.06530.pdf)
+
+- [Tell Me What They're Holding: Weakly-supervised Object Detection with Transferable Knowledge from Human-object Interaction ](https://arxiv.org/pdf/1911.08141v1.pdf)
+
+- [Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://arxiv.org/pdf/1911.08287v1.pdf)
+
+
 ## 2019 NIPS of Object Detection
+
+-[One-Shot Object Detection with Co-Attention and Co-Excitation](http://papers.nips.cc/paper/8540-one-shot-object-detection-with-co-attention-and-co-excitation.pdf)
+
+- [Memory-oriented Decoder for Light Field Salient Object Detection](http://papers.nips.cc/paper/8376-memory-oriented-decoder-for-light-field-salient-object-detection.pdf)
+
+- [FreeAnchor: Learning to Match Anchors for Visual Object Detection](https://arxiv.org/pdf/1909.02466v1.pdf)
+
+- [Consistency-based Semi-supervised Learning for Object detection](https://papers.nips.cc/paper/9259-consistency-based-semi-supervised-learning-for-object-detection.pdf)
 
 - [DetNAS: Backbone Search for Object Detection](https://arxiv.org/pdf/1903.10979.pdf)[` [pytorch]`](https://github.com/megvii-model/DetNAS)
 
