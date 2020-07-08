@@ -1,6 +1,6 @@
 # Knowledge-Distillation
 
-- [Awesome Knowledge-Distillation](#awesome-knowledge-distillation)
+- Knowledge-Distillation
   - [Different forms of knowledge](#different-forms-of-knowledge)
     - [Knowledge from logits](#knowledge-from-logits)
     - [Knowledge from intermediate layers](#knowledge-from-intermediate-layers)
