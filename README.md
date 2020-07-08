@@ -39,6 +39,8 @@ https://github.com/dkozlov/awesome-knowledge-distillation
 
 [Awesome Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
 
+Do not update
+
 [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
 
 [Awesome Adversarial Machine Learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning)
