@@ -42,7 +42,7 @@ https://arxiv.org/pdf/2003.06148.pdf
 
 https://arxiv.org/pdf/2003.00214.pdf
 
-提出了Channel Equilibrium (CE) block，来使得在同一个convolution layer中的不同channel都可以对学习出来的representation有一些贡献,CE block 和 SE block类似,都可以很轻松的加入到其他CNN模型中,来提升模型的效果,并且几乎不增加计算量.作者从理论和实验的角度证明了CE可以防止inhibited channels的出现,在imagenet classification问题上,把SE加入到resnet, mobilenet中，可以把准确率提升1~2%,比SE更有效,在COCO detection/segmentation问题上,使用CE可以提升1~2%的AP,如果使用cross-gpu synced CE, 可以再提升约1%.
+提出了Channel Equilibrium (CE) block，来使得在同一个convolution layer中的不同channel都可以对学习出来的representation有一些贡献,CE block 和 SE block类似,都可以很轻松的加入到其他CNN模型中,来提升模型的效果,并且几乎不增加计算量.作者从理论和实验的角度证明了CE可以防止inhibited channels的出现,在imagenet classification问题上,把SE加入到resnet, mobilenet中，可以把准确率提升1-2%,比SE更有效,在COCO detection/segmentation问题上,使用CE可以提升1-2%的AP,如果使用cross-gpu synced CE, 可以再提升约1%.
 
 ## 2.SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping
 
