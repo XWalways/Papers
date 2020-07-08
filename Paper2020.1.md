@@ -71,7 +71,7 @@ https://arxiv.org/pdf/1912.03458.pdf
 
 
 提出了Dynamic Convolution操作来代替普通的Convolution,Dynamic Convolution利用K个平行的kernels, 并且根据输入图片计算出每个的重要性,然后做weighted sum,再以这个结果进行convolution
-operation,Dynamic Convolution相对于普通的convolution计算量增加很小（约4%）,用Dynamic Convolution替换掉MobileNetV2/V3里面的普通convolution，在imagenet上面top-1accuracy可以提升2.3~4%,在COCO keypoint上面，也可以提升1.6~4.9的AP.
+operation,Dynamic Convolution相对于普通的convolution计算量增加很小（约4%）,用Dynamic Convolution替换掉MobileNetV2/V3里面的普通convolution，在imagenet上面top-1accuracy可以提升2.3-4%,在COCO keypoint上面，也可以提升1.6-4.9的AP.
 
 ## 2.Local Context Normalization: Revisiting Local Normalization
 
