@@ -4,3 +4,38 @@
 My notes and some good papers
 
 ## [SOTA MODEL](https://www.jiqizhixin.com/sota)
+
+## Awesome CV List
+
+[Papers With Code](https://paperswithcode.com)
+
+[Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
+
+[Awesome Tiny Object Detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
+
+[Awesome Odject Detection](https://github.com/hoya012/deep_learning_object_detection)
+
+[Metrics for Object Detection](https://github.com/rafaelpadilla/Object-Detection-Metrics)
+
+Data Aug for Object Detection
+
+https://github.com/DLLXW/DataAugmentation_ForObjectDetect
+
+https://github.com/Paperspace/DataAugmentationForObjectDetection
+
+[Awesome NAS](https://github.com/D-X-Y/Awesome-NAS)
+
+[Awesome Hand Pose Estimation](https://github.com/xinghaochen/awesome-hand-pose-estimation)
+
+[Awesome Face Recognition](https://github.com/ChanChiChoi/awesome-Face_Recognition)
+
+[Awesome Crowd Counting](https://github.com/gjy3035/Awesome-Crowd-Counting)
+
+Awesome Knowledge Distillation
+
+https://github.com/FLHonker/Awesome-Knowledge-Distillation
+
+https://github.com/dkozlov/awesome-knowledge-distillation
+
+[Awesome Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
+
