@@ -1,82 +1,66 @@
 # **Detection**
 
-## 1.NETNet: Neighbor Erasing and Transferring Network for Better Single Shot Object Detection
+## 1.Feature Pyramid Grids
 
-https://arxiv.org/pdf/2001.06690.pdf
+https://arxiv.org/abs/2004.03580
 
-指出Single-shot FPN detector普遍存在的问题:小的object容易被miss, 大的object的重要部分可能被detect成object,针对这些问题，本文提出了Neighbor Erasing and Transferring (NET) mechanism来处理生成不同的features,NET可以使得不同的feature map体现不同scale的feature,减少其中的scale-confusion,提出了 Neighbor Erasing Module (NEM) and Neighbor Transferring Module (NTM)来分别减少scale confusion和增强feature aggregation,提出了Nearest Neighbor Fusion Module来增强FPN中的feature,在COCO detection问题上,基于SSD baseline,得到了SOTA的speed vs accuracy trade-off.
+文章提出了一种FPN设计范式Feature Pyramid Grids,由multi-scale backbone pathway和多级平行的pyramid pathway构成,(FPN可以看作只有一条pyramid pathway).不同scale的feature map之间由4种不同的lateral connections 连接构建出grids网格阵列结构.不属于网络搜索,该结构为人工设计.为优化速度和性能之间的trade-off,文章总结了两条实验性的设计规则，在不太影响性能情况下减小网络复杂度：1. 平行pathway之间的AcrossUp连接可以去除,层（hi-res）特征之间的"三角形"连接可以减少.以此得到
+contracted FPG,FPG在多种检测网络架构上相较于原版FPN均在不引入明显计算量的情况下提升2+%AP(COCO),而相比NAS-FPN在two-stage网络上也有1-2%AP提升.
 
-## 2.Equalization Loss for Long-Tailed Object Recognition
+## 2.Detection in Crowded Scenes: One Proposal, Multiple Predictions
 
-https://arxiv.org/pdf/2003.05176.pdf
+https://arxiv.org/pdf/2003.09163.pdf
 
-https://github.com/tztztztztz/eql.detectron2
+本文提出了一种简单的解决密集场景检测的的方法,主要思路是使每一个proposal不只是预测一个instance，而是同时预测多个correlated instances,本文同时提出了Earth Mover's Distance (EMD)Loss，和Set NMS来增强训练和预测的过程在CrowdHuman数据集上，本文的方法可以提升4.9% AP。在CItyPersons数据集上， 提升了1%MR-2,在并不是非常密集的COCO数据及上，效果也有略微提升.
 
-为解决长尾多类数据在检测任务里类间样本不均衡的问题,提出了Equalization Loss.在rare class为positive sample时,作为negative sample的frequent class 数量众多,其梯度norm远大于positive的梯度norm,形成类间不均衡竞争,从而影响rare class的学习.Equalization Loss在原cross-entropy loss上乘以weight项,该weight项是样本频率的函数,可以抑制frequent class作为neg sample时的梯度,以Mask RCNN为baseline，添加Equalization Loss于其他loss相比在LVIS OpenImage 等数据集上的AP取得了2~3%显著提升,尤其是rare class类别.另外,本文可以是另一个解决样本不均衡的策略的补充 [DECOUPLING REPRESENTATION AND CLASSIFIER FOR LONG-TAILED RECOGNITION](https://arxiv.org/pdf/1910.09217.pdf).
+## 3.YOLOv4: Optimal Speed and Accuracy of Object Detection
 
-## 3.Revisiting the Sibling Head in Object Detector
+https://arxiv.org/pdf/2004.10934.pdf
 
-https://arxiv.org/pdf/2003.07540.pdf
+https://github.com/AlexeyAB/darknet
 
-本文回顾了目标检测中为解耦分类(cls)和定位框回归(loc)任务的双预测头(sibling head)设计,进一步提出了在原有proposal region上对应cls,loc两个任务分别产生不同的proposal,called taskaware spatial disentanglement (TSD),旨在解决两个任务所利用的特征在空间上分布不一致的问题,本文基于faster rcnn二阶段检测框架,从RoIAlign后加入产生cls proposal和loc proposal的两个FC layer,cls proposal继承deformable RoI pooling的设计,由不规则kxk grid构成,loc proposal在共享的原有proposal上shift空间位置得到,同时保留sibling head 分支联合训练,并加入progressive constraint loss的loss设计,减小TSD和sibling Head两个个分支的差距,得到更高的cls score和更准确的loc,在不同复杂度的backbone上和不同二阶段检测架构的实验显示,上述设计能够实现3-5%mAP(COCO)的提升增加about 10% time cost.
+本文主要目的是设计一类可以部署在GPU上的高效的实时检测模型,本文尝试了很多detection的提升性能的方法（bag of freebies, bag of specials）,做了很多实验一一验证每种方法的作用本文同时改进了几个SOTA方法（CBN,PAN,SAM），使得模型在GPU上更高效,最后得出的YOLOv4，在同样AP的情况下，速度远高于EfficientDet和ASFF.
 
 # **Segmentation/Action Recognition/Pose Estimation/Video**
 
-## 1. Conditional Convolutions for Instance Segmentation
+## 1.X3D: Expanding Architectures for Efficient Video Recognition
 
-https://arxiv.org/pdf/2003.05664.pdf
+https://arxiv.org/pdf/2004.04730.pdf
 
-https://github.com/aim-uofa/adet
+https://github.com/facebookresearch/SlowFast
 
-提出了CondInst,一个新的instance segmentation方法,相比Mask R-CNN速度更快,精度更高,CondInst是一个Fully Convolutional模型,不需要任何ROI pooling的操作,Mask Head的filters是在inference过程中根据不同的instance而dynamicly生成的,这样大大的节省了计算量,在COCO instance segmentation任务上取得了SOTA.
+本文提出了X3D，一系列由逐步放大6个不同维度（对应图中六个gamma）而形成的video recognition模型,本文用MobileNetV2的inverted bottleneck block搭建出来的网络作为基础结构,每个步骤，尝试从6个维度放大网络，然后选择其中一个最好的。这样重复十几次，得到越来越大的模型,X3D中的不同大小的模型，在kinetics上达到SOTA精度的情况下，计算量比slowfast小5倍左右,作者发现higher spatiotemporal resolution相比于wider model更容易提升video recognition的性能.
 
-## 2.PointINS: Point-based Instance Segmentation
-
-https://arxiv.org/pdf/2003.06148.pdf
-
-提出了PointINS,一个基于 点 的instance segmentation方法,提出 instance-aware convolution，其中利用instance-aware Weight Generation模块和Instance agnostic Feature Generation 模块分别处理feature misalignment和feature representation的问题.instance-aware convolution是一个独立于box head的模块,可以轻松的加到大多数one-stage detector上面（例如RetinaNet, FCOS）来做instance segmentation的问题.在COCO instance segementation任务上,在同类point-based方法中,得到了更高的AP.与其他SOTA方法相比,取得了更高的speed-accuracy trade-off.
 
 # **Regularization/Distillation and Network Structure**
 
-## 1.Channel Equilibrium Networks for Learning Deep Representation
+## 1.MUXConv: Information Multiplexing in Convolutional Neural Networks
 
-https://arxiv.org/pdf/2003.00214.pdf
+https://arxiv.org/pdf/2003.13880.pdf
 
-提出了Channel Equilibrium (CE) block，来使得在同一个convolution layer中的不同channel都可以对学习出来的representation有一些贡献,CE block 和 SE block类似,都可以很轻松的加入到其他CNN模型中,来提升模型的效果,并且几乎不增加计算量.作者从理论和实验的角度证明了CE可以防止inhibited channels的出现,在imagenet classification问题上,把SE加入到resnet, mobilenet中，可以把准确率提升1~2%,比SE更有效,在COCO detection/segmentation问题上,使用CE可以提升1~2%的AP,如果使用cross-gpu synced CE, 可以再提升约1%.
-
-## 2.SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping
-
-https://arxiv.org/pdf/2003.07469.pdf
-
-提出了SlimConv Module,可以用来代替普通的convolution操作，在用比较小的参数和计算量的同时,增强representation能力提出里weights flipping操作,可以增强feature的diversity,同时用reconstruct模块降低channel,redundancy,SlimConv可以代替普通Conv放进ResNet/MobileNet中,在ImageNet,COCO上,在FLOPS和Params都减少约30%的情况下,accuracy有大概1%的提升.
+https://github.com/human-analysis/MUXConv
 
 
-## 3.ReZero is All You Need: Fast Convergence at Large Depth
+文章提出MUXConv，把spatial information flow分解到不同的大小再合并,得到一个高效的可以替代普通Conv的操作,以MUXConv作为building block，提出了一种NAS算法来同时优化网络的compactness,efficiency,得到一组网络叫MUXNets,在CIFAR10/100,ImageNet的分类问题上，MUXNets在小模型上取得了SOTA的效果.
 
-https://arxiv.org/abs/2003.04887
+## 2.ResNeSt: Split-Attention Networks
 
-https://github.com/majumderb/rezero
+https://hangzhang.org/files/resnest.pdf
 
-提出了一种神经网络结构改进方法（类似正则化）.通过在神经网络中增加一个可学习的参数Alpha,并在网络初始化时alpha=0,可以使得网络在训练过程中避免梯度消失和梯度爆炸，同时能加快网络收敛速度.文章从网络的输入输出雅可比矩阵入手,研究了梯度反向传播在初始化时如何影响网络参数更新,并通过alpha的优化说明了该参数的有效性,并且说明了使用该参数可以避免使用其他Normalization而引入繁复的计算.在ResNet,Transformer上进行实验,验证其方法能够更快和更好的进行训练.
+本文提出一种通用BackBone网络架构ResNeSt，相比于参数量相当的ResNet-50网络，ResNeSt在分类、检测、分割等多种任务上都取得了很大的性能提升；与同复杂度的NAS网络EfficientNet相比，也有微小优势。ResNeSt 中的S表示 Split-Attention，该网络基础Block的设计综合了 Group Conv (ResNeXt) Channel-Attention (SE-NET) Multi-Path (GoogleNet) or Feature-Map Attention (SKNET)的思想，主要可以分为三个步骤：按channel划分K个cardinal group，每个Group的输入channel数为C/K, 每个cardinal group内部分出R个同构分支（类似ResNeXt，但不同于SKNET和GoogleNet里的不同size的kernel）,R个分支做Split-Attention，即每个分支均为SE-NET的基础结构，最后做elementwise加在一起.本文可算做一个“集大成”的工作，除网络设计之外，还比较全面地总结了很多训练trick，如Large Minibatch,Label Smoothing,AutoAug等。
 
-## 4.Dynamic ReLU
+## 3.AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty
 
-https://arxiv.org/pdf/2003.10027.pdf
+https://hangzhang.org/files/resnest.pdf
 
-提出了Dynamic ReLU, 一个新的Activation function.类似于Parametric ReLU,不同的是postitve和negative两个slope都是根据输入的feature来决定的.增加的计算量很小,同时很大程度上增强了模型的representation capability,指出了Squeeze-Excitation以及类似的方法也是Dynamic ReLU的一种特殊情况,提出了三种Dynamic ReLU, 分别有不同的sharing方式,在ImageNet和COCO数据集上,使用Dynamic ReLU替换MobileNet/ResNet中的普通ReLU,效果有显著提升(1-5%).
+https://github.com/google-research/augmix
 
-## 5. Circle Loss: A Unified Perspective of Pair Similarity Optimization
-
-https://arxiv.org/pdf/2002.10857.pdf
-
-提出了Circle loss,通过让每个相似性得分以不同的步调学习,Circle Loss 赋予深度特征学习的更灵活的优化途径,以及更明确的收敛目标,Circle loss可以用class level,或者pair-wise标注来训练,Triplet Loss和softmax cross-entropy loss都是Circle Loss的特殊形式,在人脸识别,行人再识别,细粒度的图像检索等多种深度特征学习任务上，Circle Loss 都取得了极具竞争力的性能.
-
-## 6.Circumventing Outliers of AutoAugment with Knowledge Distillation
-
-https://arxiv.org/pdf/2003.11342.pdf
-
-指出过多的augmentation可能会去除一些discriminative的信息,这种情况下用原本的groundtruth label并不是最好的方法,本文提出用Knowledge Distillation的方法来解决这个问题,用teacher model的output作为student model的target,在CIFAR-10/100,和ImageNet上,在使用AutoAugment/RandAugment的情况下,加上本文提出的方法,都可以提升accuracy,在ImageNet上,用EfficientNet-B8作为backbone,在没有用额外数据的情况下得到了85.8%的top-1accuracy.
-
+本文提出了一种叫作AugMix的新的data augmentation方法，能提升模型的accuray，并且同时提升robustness和在data shift情况下的uncertainty estimates.AugMix把一张输入图片，经过多组，每组多个不同的augmentation，然后再和原始图片mix到一起,本文同时提出用JS Divergence Consistency Loss来minimize原图和经过augmix的图的prediction，使得模型的输出更加smooth,在CIFAR-10/100上，AugMix效果好于CutMix,AutoAugment等同类方法取得了SOTA的accuracy,在CIFAR-10/100的corrupted version上，AugMix的accuracy效果远超Mixup, Adversarial Training等方法（15-20%）.
 
 # **GAN and NAS**
 
+## 1.Evolving Normalization Activation Layers
+
+https://arxiv.org/pdf/2004.02967.pdf
+
+提出把Normalization和Acitvation当做一个整体,同时优化.提出了一个Layer Search的方法，在搜索过程中,要对于各种不同的网络结构进行优化,搜索到了几个新的Normalization+Acitvation的组合,在ResNets,MobileNets,EfficientNets上面都达到了比BN,GN更好的效果.搜索到的组合在Mask R-CNN,BigGan等其他任务上表现也由于现有工作.
