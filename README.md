@@ -5,6 +5,9 @@ My notes and some good papers
 
 ## [SOTA MODEL](https://www.jiqizhixin.com/sota)
 
+CNN Models on Pytorch/MXnet/Tensorflow/Keras/Chainer
+
+https://github.com/osmr/imgclsmob
 ## Awesome CV List
 
 [Papers With Code](https://paperswithcode.com)
