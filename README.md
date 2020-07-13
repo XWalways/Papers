@@ -26,6 +26,10 @@ https://github.com/DLLXW/DataAugmentation_ForObjectDetect
 
 https://github.com/Paperspace/DataAugmentationForObjectDetection
 
+Imbalanced Problems in Object Detection
+
+https://github.com/kemaloksuz/ObjectDetectionImbalance
+
 [Awesome NAS](https://github.com/D-X-Y/Awesome-NAS)
 
 [Awesome Hand Pose Estimation](https://github.com/xinghaochen/awesome-hand-pose-estimation)
