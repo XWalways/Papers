@@ -46,6 +46,8 @@ https://github.com/dkozlov/awesome-knowledge-distillation
 
 [Awesome Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
 
+[Awesome-Super-Resolution]https://github.com/ChaofWang/Awesome-Super-Resolution
+
 Do not update
 
 [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
