@@ -30,15 +30,11 @@ https://github.com/osmr/imgclsmob
 
 [Metrics for Object Detection](https://github.com/rafaelpadilla/Object-Detection-Metrics)
 
-Data Aug for Object Detection
+[DataAugmentation_ForObjectDetect](https://github.com/DLLXW/DataAugmentation_ForObjectDetect)
 
-https://github.com/DLLXW/DataAugmentation_ForObjectDetect
+[DataAugmentationForObjectDetection](https://github.com/Paperspace/DataAugmentationForObjectDetection)
 
-https://github.com/Paperspace/DataAugmentationForObjectDetection
-
-Imbalanced Problems in Object Detection
-
-https://github.com/kemaloksuz/ObjectDetectionImbalance
+[Imbalanced Problems in Object Detection](https://github.com/kemaloksuz/ObjectDetectionImbalance)
 
 [Awesome Semantic Segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)
 
