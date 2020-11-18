@@ -40,6 +40,8 @@ https://github.com/osmr/imgclsmob
 
 [Awesome Tiny Object Detection](https://github.com/kuanhungchen/awesome-tiny-object-detection)
 
+[Awesome Anchor Free Object Detection](https://github.com/XinZhangNLPR/awesome-anchor-free-object-detection)
+
 [Awesome Odject Detection](https://github.com/hoya012/deep_learning_object_detection)
 
 [Awesome NAS](https://github.com/D-X-Y/Awesome-NAS)
@@ -57,6 +59,8 @@ https://github.com/osmr/imgclsmob
 [Awesome Object Tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking)
 
 [Awesome-Super-Resolution](https://github.com/ChaofWang/Awesome-Super-Resolution)
+
+[The GAN ZOO](https://github.com/hindupuravinash/the-gan-zoo)
 
 Do Not Update
 
