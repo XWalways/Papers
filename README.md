@@ -52,6 +52,8 @@ https://github.com/osmr/imgclsmob
 
 [Awesome Crowd Counting](https://github.com/gjy3035/Awesome-Crowd-Counting)
 
+[Awesome Network Pruning](https://github.com/he-y/Awesome-Pruning)
+
 [Awesome Knowledge Distillation](https://github.com/FLHonker/Awesome-Knowledge-Distillation)
 
 [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
